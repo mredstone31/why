@@ -89,16 +89,41 @@ The goal is to make Linux tracing easier to understand.
 
 ## Installation
 
+### Install from release binary
+
+Download the latest Linux binary from the [Releases](https://github.com/mredstone31/why/releases) page.
+
+For `v0.1.0`, download:
+
+- `why-v0.1.0-linux-x86_64.tar.gz`
+
+Then extract and run it:
+
+```bash
+tar -xzf why-v0.1.0-linux-x86_64.tar.gz
+chmod +x why-v0.1.0-linux-x86_64
+./why-v0.1.0-linux-x86_64 --help
+```
+
+To install it globally:
+
+```bash
+sudo mv why-v0.1.0-linux-x86_64 /usr/local/bin/why
+why --help
+```
+
+### Install directly from Git with Cargo
+
+```bash
+cargo install --git https://github.com/mredstone31/why.git --locked
+```
+
 ### Build and install from source
 
 ```bash
+git clone https://github.com/mredstone31/why.git
+cd why
 cargo install --path . --force
-```
-
-Then run:
-
-```bash
-why --help
 ```
 
 ### Build manually
