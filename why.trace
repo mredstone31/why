@@ -1,0 +1,92 @@
+16244 20:04:34.089658 execve("/usr/bin/ls", ["ls"], 0x7fffd9ccb828 /* 86 vars */) = 0 <0.000696>
+16244 20:04:34.090801 brk(NULL)         = 0x57c3469ae000 <0.000019>
+16244 20:04:34.090953 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7dc389706000 <0.000038>
+16244 20:04:34.091117 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000026>
+16244 20:04:34.093398 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000051>
+16244 20:04:34.093815 newfstatat(AT_FDCWD, "/home/naveed/whycli/target/debug/", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000026>
+16244 20:04:34.093931 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/deps/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000028>
+16244 20:04:34.094022 newfstatat(AT_FDCWD, "/home/naveed/whycli/target/debug/deps/", {st_mode=S_IFDIR|0775, st_size=16384, ...}, 0) = 0 <0.000025>
+16244 20:04:34.096329 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.001516>
+16244 20:04:34.098377 newfstatat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000031>
+16244 20:04:34.098711 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000035>
+16244 20:04:34.098822 newfstatat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/", {st_mode=S_IFDIR|0775, st_size=4096, ...}, 0) = 0 <0.000028>
+16244 20:04:34.098926 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000043>
+16244 20:04:34.099040 fstat(3, {st_mode=S_IFREG|0644, st_size=74095, ...}) = 0 <0.000024>
+16244 20:04:34.099181 mmap(NULL, 74095, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7dc3896f3000 <0.000069>
+16244 20:04:34.099561 close(3)          = 0 <0.000027>
+16244 20:04:34.099706 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000048>
+16244 20:04:34.099839 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000031>
+16244 20:04:34.099938 fstat(3, {st_mode=S_IFREG|0644, st_size=174472, ...}) = 0 <0.000025>
+16244 20:04:34.100035 mmap(NULL, 181960, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7dc3896c6000 <0.000086>
+16244 20:04:34.100354 mmap(0x7dc3896cc000, 118784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7dc3896cc000 <0.000077>
+16244 20:04:34.100509 mmap(0x7dc3896e9000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7dc3896e9000 <0.001685>
+16244 20:04:34.102323 mmap(0x7dc3896ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7dc3896ef000 <0.000062>
+16244 20:04:34.102518 mmap(0x7dc3896f1000, 5832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7dc3896f1000 <0.000040>
+16244 20:04:34.102654 close(3)          = 0 <0.000026>
+16244 20:04:34.102751 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000040>
+16244 20:04:34.102902 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/deps/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000031>
+16244 20:04:34.102997 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000065>
+16244 20:04:34.103147 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000030>
+16244 20:04:34.103254 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000041>
+16244 20:04:34.103358 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832 <0.000029>
+16244 20:04:34.103477 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000022>
+16244 20:04:34.103560 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0 <0.000021>
+16244 20:04:34.103650 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784 <0.000022>
+16244 20:04:34.103730 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7dc389400000 <0.000052>
+16244 20:04:34.103841 mmap(0x7dc389428000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7dc389428000 <0.000061>
+16244 20:04:34.103959 mmap(0x7dc3895b0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7dc3895b0000 <0.000044>
+16244 20:04:34.104112 mmap(0x7dc3895ff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7dc3895ff000 <0.000045>
+16244 20:04:34.104276 mmap(0x7dc389605000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7dc389605000 <0.000036>
+16244 20:04:34.104410 close(3)          = 0 <0.000026>
+16244 20:04:34.104517 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000043>
+16244 20:04:34.104678 openat(AT_FDCWD, "/home/naveed/whycli/target/debug/deps/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000031>
+16244 20:04:34.104778 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000034>
+16244 20:04:34.104883 openat(AT_FDCWD, "/home/naveed/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000030>
+16244 20:04:34.104989 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3 <0.000115>
+16244 20:04:34.105191 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832 <0.000031>
+16244 20:04:34.105290 fstat(3, {st_mode=S_IFREG|0644, st_size=625344, ...}) = 0 <0.000025>
+16244 20:04:34.105409 mmap(NULL, 627472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7dc38962c000 <0.000068>
+16244 20:04:34.105539 mmap(0x7dc38962e000, 450560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7dc38962e000 <0.000082>
+16244 20:04:34.105681 mmap(0x7dc38969c000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x70000) = 0x7dc38969c000 <0.000045>
+16244 20:04:34.105785 mmap(0x7dc3896c4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x97000) = 0x7dc3896c4000 <0.000044>
+16244 20:04:34.105949 close(3)          = 0 <0.000027>
+16244 20:04:34.106139 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7dc38962a000 <0.000044>
+16244 20:04:34.106299 arch_prctl(ARCH_SET_FS, 0x7dc38962ac40) = 0 <0.000025>
+16244 20:04:34.106385 set_tid_address(0x7dc38962af10) = 16244 <0.000021>
+16244 20:04:34.106458 set_robust_list(0x7dc38962af20, 24) = 0 <0.000021>
+16244 20:04:34.106530 rseq(0x7dc38962b560, 0x20, 0, 0x53053053) = 0 <0.000023>
+16244 20:04:34.106820 mprotect(0x7dc3895ff000, 16384, PROT_READ) = 0 <0.000071>
+16244 20:04:34.106969 mprotect(0x7dc3896c4000, 4096, PROT_READ) = 0 <0.000045>
+16244 20:04:34.107231 mprotect(0x7dc3896ef000, 4096, PROT_READ) = 0 <0.000049>
+16244 20:04:34.107441 mprotect(0x57c32da2b000, 8192, PROT_READ) = 0 <0.000038>
+16244 20:04:34.107555 mprotect(0x7dc389746000, 8192, PROT_READ) = 0 <0.000057>
+16244 20:04:34.107706 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0 <0.000025>
+16244 20:04:34.107850 munmap(0x7dc3896f3000, 74095) = 0 <0.000064>
+16244 20:04:34.108002 statfs("/sys/fs/selinux", 0x7ffe5ffebed0) = -1 ENOENT (No such file or directory) <0.000062>
+16244 20:04:34.108166 statfs("/selinux", 0x7ffe5ffebed0) = -1 ENOENT (No such file or directory) <0.000026>
+16244 20:04:34.108296 getrandom("\xe1\xbb\x77\x9c\xfb\x9b\x21\x2e", 8, GRND_NONBLOCK) = 8 <0.000027>
+16244 20:04:34.108390 brk(NULL)         = 0x57c3469ae000 <0.000024>
+16244 20:04:34.108466 brk(0x57c3469cf000) = 0x57c3469cf000 <0.000029>
+16244 20:04:34.108580 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3 <0.000050>
+16244 20:04:34.108702 fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0 <0.000024>
+16244 20:04:34.108789 read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 393 <0.000055>
+16244 20:04:34.108919 read(3, "", 1024) = 0 <0.000021>
+16244 20:04:34.108992 close(3)          = 0 <0.000027>
+16244 20:04:34.109087 access("/etc/selinux/config", F_OK) = -1 ENOENT (No such file or directory) <0.000029>
+16244 20:04:34.109230 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3 <0.000032>
+16244 20:04:34.109331 fstat(3, {st_mode=S_IFREG|0644, st_size=6084528, ...}) = 0 <0.000024>
+16244 20:04:34.109414 mmap(NULL, 6084528, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7dc388e00000 <0.000040>
+16244 20:04:34.109523 close(3)          = 0 <0.000023>
+16244 20:04:34.109712 ioctl(1, TCGETS, {c_iflag=ICRNL|IXON|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0 <0.000032>
+16244 20:04:34.110045 ioctl(1, TIOCGWINSZ, {ws_row=39, ws_col=168, ws_xpixel=0, ws_ypixel=0}) = 0 <0.000027>
+16244 20:04:34.110412 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3 <0.000039>
+16244 20:04:34.110538 fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000026>
+16244 20:04:34.110647 getdents64(3, 0x57c3469b5d30 /* 9 entries */, 32768) = 256 <0.000052>
+16244 20:04:34.110785 getdents64(3, 0x57c3469b5d30 /* 0 entries */, 32768) = 0 <0.000025>
+16244 20:04:34.110870 close(3)          = 0 <0.000034>
+16244 20:04:34.111094 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0 <0.000030>
+16244 20:04:34.111245 write(1, "Cargo.lock  Cargo.toml\tsrc  targ"..., 46) = 46 <0.000054>
+16244 20:04:34.111385 close(1)          = 0 <0.000028>
+16244 20:04:34.111471 close(2)          = 0 <0.000022>
+16244 20:04:34.111638 exit_group(0)     = ?
+16244 20:04:34.112211 +++ exited with 0 +++
